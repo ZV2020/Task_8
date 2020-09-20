@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>8.10.1</title>
+</head>
+
+<body>
+
+    <form action="#">
+        <label>
+            Текст
+            <input type="text" placeholder="Введите текст">
+        </label>
+        <button type="submit">Нажми меня</button>
+    </form>
+
+    <script>
+        const input = document.querySelector('input')
+        input.addEventListener("input", (event) => {
+        console.log(input.value)
+        })
+
+        input.addEventListener("click", (event) => {
+        event.stopPropagation()
+        }) 
+
+        const button = document.querySelector('button')
+        button.addEventListener("click", (event) => {
+        event.stopPropagation(); 
+        event.preventDefault()
+        alert("Спасибо за нажатие на нашу замечательную кнопку. Значение вашего поля — " + input.value)
+        })
+
+        document.addEventListener("click", (event) => {
+        alert("Здесь ничего нет, нажмите, пожалуйста, на кнопку или заполните поле ввода")
+        })
+
+    </script>
+
+</body>

@@ -10,9 +10,9 @@
 * Java Script
 
 
-## [Задание 1](https://codepen.io/zv2020/pen/WNwJPKr)
-## [Задание 2](https://codepen.io/zv2020/pen/WNwJPKr)
-## [Задание 3](https://codepen.io/zv2020/pen/WNwJPKr)
+## [Задание 1](https://codepen.io/zv2020/pen/VwaEEja)
+## [Задание 2](https://codepen.io/zv2020/pen/GRZYPZK)
+## [Задание 3](https://codepen.io/zv2020/pen/MWyPZyv)
 ---
 
 LICENSE: [MIT](/LICENSE.md)
